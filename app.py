@@ -11,9 +11,6 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
-@app.route('/video_<id>')
-def user(id):
-    return f"This is page of video with id:{id}"
 
 ####################################################
 
